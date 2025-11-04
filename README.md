@@ -3,7 +3,7 @@
 > **"Ready or Not: Why Your Data (Still) Matters in the Age of AI"**  
 > A practical case study demonstrating the complete data science pipeline
 
-## 📊 Project Overview
+## Project Overview
 
 This case study demonstrates the journey from messy raw data to production-ready machine learning models, following the exact progression outlined in the course curriculum.
 
@@ -11,7 +11,7 @@ This case study demonstrates the journey from messy raw data to production-ready
 
 ---
 
-## 🗺️ Project Structure Mapped to Course Modules
+## Project Structure Mapped to Course Modules
 
 ```
 ecommerce-sales-forecasting/
@@ -40,7 +40,7 @@ ecommerce-sales-forecasting/
 
 ---
 
-## 📚 Case Study Parts
+## Case Study Parts
 
 ### **Part 1: The Reality - "Our data is a mess"**
 **Notebook**: `part1_the_reality.ipynb`
@@ -61,10 +61,10 @@ ecommerce-sales-forecasting/
 **Course Modules**: Module 1-2
 
 **What You'll Learn**:
-- ✅ Handle missing values strategically
-- ✅ Standardize data types and formats
-- ✅ Remove duplicates and outliers
-- ✅ Create analysis-ready datasets with Pandas & NumPy
+- Handle missing values strategically
+- Standardize data types and formats
+- Remove duplicates and outliers
+- Create analysis-ready datasets with Pandas & NumPy
 
 **Outcome**: Transform chaos into clean, structured data ready for analysis.
 
@@ -75,10 +75,10 @@ ecommerce-sales-forecasting/
 **Course Modules**: Module 2-3
 
 **What You'll Learn**:
-- 📊 Visualize sales trends and patterns
-- 📈 Identify seasonality and correlations
-- 🔍 Statistical validation and hypothesis testing
-- 💡 Feature engineering for better predictions
+- Visualize sales trends and patterns
+- Identify seasonality and correlations
+- Statistical validation and hypothesis testing
+- Feature engineering for better predictions
 
 **Outcome**: Deep understanding of what drives sales and which variables matter.
 
@@ -89,10 +89,10 @@ ecommerce-sales-forecasting/
 **Course Module**: Module 4
 
 **What You'll Learn**:
-- 🎯 Linear Regression for baseline predictions
-- 🌳 Random Forest for capturing non-linear patterns
-- 📊 Model evaluation and comparison
-- ⚙️ Hyperparameter tuning
+- Linear Regression for baseline predictions
+- Random Forest for capturing non-linear patterns
+- Model evaluation and comparison
+- Hyperparameter tuning
 
 **Outcome**: Production-ready forecasting models with measurable accuracy.
 
@@ -103,16 +103,16 @@ ecommerce-sales-forecasting/
 **Course Module**: Module 5
 
 **What You'll Learn**:
-- 🧠 Build neural networks with Keras/TensorFlow
-- 📉 LSTM networks for time series forecasting
-- 🔄 Sequence prediction for multi-step forecasting
-- 🚀 Compare deep learning vs traditional ML
+- Build neural networks with Keras/TensorFlow
+- LSTM networks for time series forecasting
+- Sequence prediction for multi-step forecasting
+- Compare deep learning vs traditional ML
 
 **Outcome**: State-of-the-art forecasting using deep learning techniques.
 
 ---
 
-## 🎯 Key Takeaways
+## Key Takeaways
 
 | Stage | Pain Point | Solution | Skills Demonstrated |
 |-------|-----------|----------|-------------------|
@@ -124,7 +124,7 @@ ecommerce-sales-forecasting/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -149,30 +149,20 @@ Start with `part1_the_reality.ipynb` and progress through each notebook in seque
 
 ---
 
-## 📈 Business Impact
+## Business Impact
 
 By the end of this case study, you'll have:
-- ✅ Cleaned and validated e-commerce sales data
-- ✅ Identified key drivers of sales performance
-- ✅ Built multiple forecasting models
-- ✅ Achieved measurable prediction accuracy
-- ✅ Created a complete portfolio project
+- Cleaned and validated e-commerce sales data
+- Identified key drivers of sales performance
+- Built multiple forecasting models
+- Achieved measurable prediction accuracy
+- Created a complete portfolio project
 
 **This is what being "Ready" for AI looks like.**
 
 ---
 
-## 📝 Dataset Source
+## Dataset Source
 Kaggle: E-Commerce Sales Dataset (to be specified)
 
 ---
-
-## 👨‍🏫 Course Information
-This case study supports the curriculum:  
-**"Ready or Not: Why Your Data (Still) Matters in the Age of AI"**  
-14-week part-time program | HRDF Accredited
-
----
-
-## 📧 Questions?
-This progressive case study demonstrates exactly why mastering the full data pipeline matters in the age of AI.
