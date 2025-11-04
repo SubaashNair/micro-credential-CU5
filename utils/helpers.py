@@ -11,9 +11,9 @@ def assess_data_quality(df, name="Dataset"):
     print(f"DATA QUALITY ASSESSMENT: {name}")
     print(f"{'='*60}\n")
     
-    print(f"📊 Dataset Shape: {df.shape[0]:,} rows × {df.shape[1]} columns\n")
+    print(f"Dataset Shape: {df.shape[0]:,} rows × {df.shape[1]} columns\n")
     
-    print("🔍 Missing Values:")
+    print("Missing Values:")
     missing = df.isnull().sum()
     missing_pct = (missing / len(df)) * 100
     missing_df = pd.DataFrame({
@@ -25,15 +25,15 @@ def assess_data_quality(df, name="Dataset"):
     if len(missing_df) > 0:
         print(missing_df.to_string())
     else:
-        print("✅ No missing values found")
+        print("No missing values found")
     
-    print(f"\n📋 Data Types:")
+    print(f"\nData Types:")
     print(df.dtypes.value_counts())
     
-    print(f"\n🔢 Numeric Columns: {df.select_dtypes(include=[np.number]).columns.tolist()}")
-    print(f"📝 Categorical Columns: {df.select_dtypes(include=['object', 'category']).columns.tolist()}")
+    print(f"\nNumeric Columns: {df.select_dtypes(include=[np.number]).columns.tolist()}")
+    print(f"Categorical Columns: {df.select_dtypes(include=['object', 'category']).columns.tolist()}")
     
-    print(f"\n🔄 Duplicate Rows: {df.duplicated().sum():,}")
+    print(f"\nDuplicate Rows: {df.duplicated().sum():,}")
     
     print(f"\n{'='*60}\n")
     
@@ -44,7 +44,7 @@ def plot_missing_data(df, title="Missing Data Visualization"):
     missing = missing[missing > 0].sort_values(ascending=True)
     
     if len(missing) == 0:
-        print("✅ No missing data to visualize")
+        print("No missing data to visualize")
         return
     
     plt.figure(figsize=(10, 6))
@@ -109,7 +109,7 @@ def print_model_metrics(y_true, y_pred, model_name="Model"):
     mape = np.mean(np.abs((y_true - y_pred) / y_true)) * 100
     
     print(f"\n{'='*60}")
-    print(f"📊 {model_name} Performance Metrics")
+    print(f"{model_name} Performance Metrics")
     print(f"{'='*60}")
     print(f"Mean Absolute Error (MAE):    {mae:,.2f}")
     print(f"Root Mean Squared Error (RMSE): {rmse:,.2f}")
@@ -124,7 +124,7 @@ def save_figure(fig, filename, output_dir='../outputs/visualizations'):
     os.makedirs(output_dir, exist_ok=True)
     filepath = os.path.join(output_dir, filename)
     fig.savefig(filepath, dpi=300, bbox_inches='tight')
-    print(f"✅ Saved: {filepath}")
+    print(f"Saved: {filepath}")
 
 def set_plot_style():
     sns.set_style("whitegrid")
